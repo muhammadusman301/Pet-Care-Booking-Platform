@@ -20,3 +20,5 @@ service providers in the UK market.
 - [x] Backend Environment Configuration (Usman)
 - [x] Frontend Component Scaffolding (Huraira)
 - [x] SQL Model Design (Nadeem)
+- [x] Booking Logic & Conflict Validation (Nadeem)
+- [x] Time-Slot UI Components (Huraira)
