@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+
+
 const GigForm = ({ initialData, onSubmit, onCancel }) => {
     const [data, setData] = useState(initialData || {
         legal_name: '', business_name: '', cover_image_url: '', gender: '', dob: '', nationality: '', mobile: '', gig_email: '', address: '', city: '', postcode: '', service_radius: '',
