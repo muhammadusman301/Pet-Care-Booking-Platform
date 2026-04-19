@@ -4,6 +4,10 @@ import Auth from './Auth';
 import Dashboard from './Dashboard';
 import ProviderDashboard from './ProviderDashboard';
 
+
+
+
+
 const App = () => {
     const [token, setToken] = useState(localStorage.getItem('access_token'));
     const [isProvider, setIsProvider] = useState(false);
