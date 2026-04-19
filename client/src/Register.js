@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
+
+
+
 const Register = ({ setView }) => {
     const [role, setRole] = useState('Owner');
     const [formData, setFormData] = useState({
