@@ -12,6 +12,9 @@ from .serializers import (
     UserProfileSerializer, MessageSerializer
 )
 
+
+
+
 class UserProfileViewSet(viewsets.ModelViewSet):
     serializer_class = UserProfileSerializer
     permission_classes = [permissions.IsAuthenticated]
